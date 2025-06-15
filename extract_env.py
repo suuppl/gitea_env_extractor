@@ -100,5 +100,5 @@ if __name__ == "__main__":
     results = extract_h2_with_li_children('gitea.html')
     yaml = transform(results=results)
     print(yaml)
-    with open('output.yaml', 'w', encoding='utf-8') as f:
+    with open('gitea.env', 'w', encoding='utf-8') as f:
         f.write(yaml)
